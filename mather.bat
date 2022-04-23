@@ -2,4 +2,4 @@
 setlocal EnableDelayedExpansion
 set opts=
 for /f "tokens=* delims=" %%x in (%1) do set opts=!opts!%%x
-python math.py !opts!
+python mather.py !opts!
